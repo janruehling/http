@@ -1,4 +1,4 @@
-let {makeHTTPDriver} = require(`./http-driver`)
+let {makeHTTPDriver} = require(`./cycle-http-driver`)
 
 let CycleHTTPDriver = {
   /**

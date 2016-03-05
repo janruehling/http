@@ -1,8 +1,8 @@
 {
   "name": "@cycle/http",
-  "version": "8.2.2",
+  "version": "8.2.5",
   "description": "A Cycle.js Driver for making HTTP requests",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "author": "Andre Staltz",
   "license": "MIT",
   "repository": {
@@ -35,12 +35,9 @@
     "zuul": "3.9.0"
   },
   "jspm": {
-    "main": "dist/cycle-http-driver",
     "registry": "npm",
-    "shim": {
-      "@cycle/http": {
-        "deps": ["rx"]
-      }
+    "dependencies": {
+      "rx": ">=3"
     }
   },
   "browserify-shim": {

@@ -36,6 +36,7 @@
   },
   "jspm": {
     "main": "dist/cycle-http-driver",
+    "registry": "npm",
     "shim": {
       "Rx": ["rx"]
     }

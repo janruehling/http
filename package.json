@@ -38,7 +38,9 @@
     "main": "dist/cycle-http-driver",
     "registry": "npm",
     "shim": {
-      "Rx": ["rx"]
+      "@cycle/http": {
+        "deps": ["rx"]
+      }
     }
   },
   "browserify-shim": {
